@@ -1,0 +1,27 @@
+metatron-cloud/
+├── backend/
+│   ├── server.js          # Express server
+│   ├── routes/
+│   │   └── services.js    # API endpoints for cloud/SAP services
+│   ├── models/            # Database models (MongoDB/Postgres)
+│   └── chatbot/           # AI bot integration logic
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html     # Root HTML
+│   ├── src/
+│   │   ├── App.js         # Main React app
+│   │   ├── components/
+│   │   │   ├── Navbar.js
+│   │   │   ├── Hero.js
+│   │   │   ├── Services.js
+│   │   │   ├── ChatBot.js
+│   │   │   └── Footer.js
+│   │   ├── pages/
+│   │   │   ├── About.js
+│   │   │   ├── Contact.js
+│   │   │   └── Solutions.js
+│   │   └── styles/        # TailwindCSS or custom CSS
+│   └── package.json
+│
+└── README.md
